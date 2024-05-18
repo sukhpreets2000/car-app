@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import logo from '/logo.png';
-import './Navbar.css';
+import './Header.css';
 import { useState } from 'react';
 
 const Header = () => {
