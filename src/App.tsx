@@ -1,10 +1,10 @@
 import Footer from "./components/footer/Footer"
-import Navbar from "./components/navbar/Navbar"
+import Header from "./components/header/header"
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <Footer />
     </>
   )

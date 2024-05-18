@@ -4,7 +4,7 @@ import logo from '/logo.png';
 import './Navbar.css';
 import { useState } from 'react';
 
-const Navbar = () => {
+const Header = () => {
     const [show, setShow] = useState(false);
 
     const HamburgerHandler = () => {
@@ -48,4 +48,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Header
