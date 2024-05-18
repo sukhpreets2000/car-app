@@ -8,7 +8,10 @@ export default {
     colors: {
       yellow: '#ffc107',
       black: 'black',
-      blue: 'blue',
+      darkblue: '#03031e',
+      white:'white',
+      grey:'rgba(153, 136, 136, 0.877)',
+      lightgrey:'rgb(255 255 255 / 10%)',
     },
     extend: {},
   },
