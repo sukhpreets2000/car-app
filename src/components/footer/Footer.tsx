@@ -1,6 +1,9 @@
 import { faClock, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa6";
 import './Footer.css';
+
 const Footer = () => {
   return (
     <footer className="w-full mt-20 bg-darkblue py-[100px] p-3">
@@ -44,50 +47,50 @@ const Footer = () => {
             <p className="text-grey mt-2 text-[14px]">A Cars Online we consider ourselves a part of the big
               automobile community. We service all makes and models and take pride in every repair.</p>
             <div className="mt-6 flex gap-2">
-              <a href="#" className="bg-white py-[10px] px-[18px] rounded-full cursor-pointer hover:bg-yellow duration-500">
-                <FontAwesomeIcon icon={faLocationDot} size="sm" className="text-black" />
+              <a href="#" className="bg-white py-[10px] px-[10px] rounded-full cursor-pointer hover:bg-yellow duration-500">
+                <FaInstagram className="fa-xl" />
               </a>
-              <a href="#" className="bg-white py-[10px] px-[18px] rounded-full cursor-pointer hover:bg-yellow duration-500">
-                <FontAwesomeIcon icon={faLocationDot} size="sm" className="text-black" />
+              <a href="#" className="bg-white py-[10px] px-[10px] rounded-full cursor-pointer hover:bg-yellow duration-500">
+                <FaFacebook className="fa-xl" />
               </a>
-              <a href="#" className="bg-white py-[10px] px-[18px] rounded-full cursor-pointer hover:bg-yellow duration-500">
-                <FontAwesomeIcon icon={faLocationDot} size="sm" className="text-black" />
+              <a href="#" className="bg-white py-[10px] px-[10px] rounded-full cursor-pointer hover:bg-yellow duration-500">
+                <FaTwitter className="fa-xl" />
               </a>
-              <a href="#" className="bg-white py-[10px] px-[18px] rounded-full cursor-pointer hover:bg-yellow duration-500">
-                <FontAwesomeIcon icon={faLocationDot} size="sm" className="text-black" />
+              <a href="#" className="bg-white py-[10px] px-[10px] rounded-full cursor-pointer hover:bg-yellow duration-500">
+                <FaLinkedin className="fa-xl" />
               </a>
             </div>
           </div>
           <div>
             <h3 className="text-white text-2xl">Quick Links</h3>
             <div className="flex flex-col text-grey mt-2">
-              <a href="#" className="hover:text-yellow duration-500">
+              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
                 Home
               </a>
-              <a href="#" className="hover:text-yellow duration-500">
+              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
                 About
               </a>
-              <a href="#" className="hover:text-yellow duration-500">
+              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
                 Services
               </a>
-              <a href="#" className="hover:text-yellow duration-500">
+              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
                 Team
               </a>
-              <a href="#" className="hover:text-yellow duration-500">
+              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
                 Contact
               </a>
             </div>
           </div>
           <div>
             <h3 className="text-white text-2xl">Our Services</h3>
-            {/* <ul>
-              <li>Engine Repair</li>
-              <li>Car Windshield Maintenance</li>
-              <li>Oil Filter</li>
-              <li>Engine Coolant</li>
-              <li>Air Conditioner Service</li>
-              <li>Tyre Replacement</li>
-            </ul> */}
+            <ul className="mt-2">
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" /> Engine Repair</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Car Windshield Maintenance</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Oil Filter</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Engine Coolant</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Air Conditioner Service</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Tyre Replacement</li>
+            </ul>
           </div>
           <div>04</div>
         </div>

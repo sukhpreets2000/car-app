@@ -1,8 +1,8 @@
-ul li{
+.nav-items .nav-list{
     position: relative;
     transition: all .6s linear;
 }
-ul li:after{
+.nav-items .nav-list:after{
     content: "";
     width: 0%;
     height: 2px;
@@ -12,12 +12,12 @@ ul li:after{
     background-color: #ffc107;
     transition: all .4s ease-in-out;
 }
-ul li:hover:after{
+.nav-items .nav-list:hover:after{
     width: 100%;
 }
 
 @media (max-width: 767px) {
-    nav ul {
+    nav .nav-items {
     position: absolute;
     background-color: #383a25;
     position:fixed;

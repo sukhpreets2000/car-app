@@ -21,20 +21,20 @@ const Header = () => {
                         </a>
                     </div>
                     <div>
-                        <ul className={`flex gap-4 ${show ? 'right-[0px]' : ''}`}>
-                            <li className="py-1">
+                        <ul className={`nav-items flex gap-4 ${show ? 'right-[0px]' : ''}`}>
+                            <li className="py-1 nav-list">
                                 <a href="#">Home</a>
                             </li>
-                            <li className="py-1">
+                            <li className="py-1 nav-list">
                                 <a href="#">About</a>
                             </li>
-                            <li className="py-1">
+                            <li className="py-1 nav-list">
                                 <a href="#">Services</a>
                             </li>
-                            <li className="py-1">
+                            <li className="py-1 nav-list">
                                 <a href="#">Team</a>
                             </li>
-                            <li className="py-1">
+                            <li className="py-1 nav-list">
                                 <a href="#">Contact</a>
                             </li>
                         </ul>
