@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="text-white">Phone:</h3>
-              <p className="text-grey">12 (845) 3342 78 92</p>
+              <p className="text-grey text-[14px]">12 (845) 3342 78 92</p>
             </div>
           </div>
           <div className="flex items-center gap-5 sm: mt-2">
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="text-white">Location:</h3>
-              <p className="text-grey">221 Beker St, Los Angeles, USA</p>
+              <p className="text-grey text-[14px]">221 Beker St, Los Angeles, USA</p>
             </div>
           </div>
           <div className="flex items-center gap-5 sm: mt-2">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="text-white">Opening hours:</h3>
-              <p className="text-grey">Mon. - Sat. 9:00AM - 10:00PM</p>
+              <p className="text-grey text-[14px]">Mon. - Sat. 9:00AM - 10:00PM</p>
             </div>
           </div>
         </div>
@@ -92,7 +92,18 @@ const Footer = () => {
               <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Tyre Replacement</li>
             </ul>
           </div>
-          <div>04</div>
+          <div>
+            <ul className="sm:mt-0 md:mt-[38px]">
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" /> Suspension Service</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Diagnostics Service</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Dent/Repair Service</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Brake Rotors Service</li>
+              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Wheel Alignment</li>
+            </ul>
+          </div>
+        </div>
+        <div className="text-center">
+          <p className="text-grey text-[14px]">Copyright © 2022 <span className="text-yellow">Car Care</span> All Rights Reserved. | Website design by <span className="text-yellow">Dalbir and Sukhpreet</span></p>
         </div>
       </div>
     </footer>
