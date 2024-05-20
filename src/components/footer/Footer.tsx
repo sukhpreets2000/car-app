@@ -1,7 +1,9 @@
 import { faClock, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-import { FaCheck } from "react-icons/fa6";
+import { service1, service2 } from '../../db/db.json';
+import { ServiceType } from '../../types/ServiceType';
+import ServiceList from '../ServiceList';
 import './Footer.css';
 
 const Footer = () => {
@@ -84,21 +86,20 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-2xl">Our Services</h3>
             <ul className="mt-2">
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" /> Engine Repair</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Car Windshield Maintenance</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Oil Filter</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Engine Coolant</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Air Conditioner Service</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Tyre Replacement</li>
+              {
+                service1.map((list: ServiceType) => (
+                  <ServiceList name={list.name} key={list.id} />
+                ))
+              }
             </ul>
           </div>
           <div>
             <ul className="sm:mt-0 md:mt-[38px]">
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" /> Suspension Service</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Diagnostics Service</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Dent/Repair Service</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Brake Rotors Service</li>
-              <li className="flex cursor-pointer gap-2 items-center text-grey hover:text-yellow duration-500 text-[14px]"> <FaCheck className="text-yellow" />Wheel Alignment</li>
+              {
+                service2.map((list: ServiceType) => (
+                  <ServiceList name={list.name} key={list.id} />
+                ))
+              }
             </ul>
           </div>
         </div>

@@ -1,0 +1,50 @@
+{
+  "service1": [
+    {
+      "id": 1,
+      "name": "Engine Repair"
+    },
+    {
+      "id": 2,
+      "name": "Car Windshield Maintenance"
+    },
+    {
+      "id": 3,
+      "name": "Oil Filter"
+    },
+    {
+      "id": 4,
+      "name": "Engine Coolant"
+    },
+    {
+      "id": 5,
+      "name": "Air Conditioner Service"
+    },
+    {
+      "id": 6,
+      "name": "Tyre Replacement"
+    }
+  ],
+  "service2": [
+    {
+      "id": 1,
+      "name": "Suspension Service"
+    },
+    {
+      "id": 2,
+      "name": "Diagnostics Service"
+    },
+    {
+      "id": 3,
+      "name": "Dent/Repair Service"
+    },
+    {
+      "id": 4,
+      "name": "Brake Rotors Service"
+    },
+    {
+      "id": 5,
+      "name": "Wheel Alignment"
+    }
+  ]
+}
