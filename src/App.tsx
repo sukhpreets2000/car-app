@@ -1,11 +1,10 @@
-import Footer from "./components/footer/Footer"
-import Header from "./components/header/Header"
+import { RouterProvider } from "react-router-dom"
+import { router } from "./router/Router"
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   )
 }

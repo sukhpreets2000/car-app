@@ -3,6 +3,7 @@ import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import logo from '/logo.png';
 import './Header.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -23,19 +24,19 @@ const Header = () => {
                     <div>
                         <ul className={`nav-items flex gap-4 ${show ? 'right-[0px]' : ''}`}>
                             <li className="py-1 nav-list">
-                                <a href="#">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
                             <li className="py-1 nav-list">
-                                <a href="#">About</a>
+                                <Link to="about">About</Link>
                             </li>
                             <li className="py-1 nav-list">
-                                <a href="#">Services</a>
+                                <Link to="service">Services</Link>
                             </li>
                             <li className="py-1 nav-list">
-                                <a href="#">Team</a>
+                                <Link to="team">Team</Link>
                             </li>
                             <li className="py-1 nav-list">
-                                <a href="#">Contact</a>
+                                <Link to="contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

@@ -1,6 +1,7 @@
 import { faClock, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import { service1, service2 } from '../../db/db.json';
 import { ServiceType } from '../../types/ServiceType';
 import ServiceList from '../ServiceList';
@@ -66,21 +67,21 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-2xl">Quick Links</h3>
             <div className="flex flex-col text-grey mt-2">
-              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
+              <Link to="/" className="hover:text-yellow duration-500 text-[14px]">
                 Home
-              </a>
-              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
+              </Link>
+              <Link to="about" className="hover:text-yellow duration-500 text-[14px]">
                 About
-              </a>
-              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
+              </Link>
+              <Link to="service" className="hover:text-yellow duration-500 text-[14px]">
                 Services
-              </a>
-              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
+              </Link>
+              <Link to="team" className="hover:text-yellow duration-500 text-[14px]">
                 Team
-              </a>
-              <a href="#" className="hover:text-yellow duration-500 text-[14px]">
+              </Link>
+              <Link to="contact" className="hover:text-yellow duration-500 text-[14px]">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
           <div>
