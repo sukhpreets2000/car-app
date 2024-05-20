@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 767px) {
-    nav .nav-items {
+    nav ul {
     position: absolute;
     background-color: #383a25;
     position:fixed;
