@@ -7,7 +7,7 @@ const HomePage = () => {
         <div className="flex items-center flex-col justify-center w-full h-full">
           <div className="flex items-center image">
             <div className="position-absolute bg-overlay w-full h-full flex items-center justify-center">
-              <h1 className="text-white text-[2em] type-style">RELIABLE </h1>
+              <h1 className="text-white text-[2em] type-style">RELIABLE hai </h1>
               <TypeAnimation
                 sequence={[
                   ' PROVIDE BEST OFFERS',
