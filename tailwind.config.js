@@ -12,8 +12,9 @@ export default {
       white:'white',
       grey:'rgba(153, 136, 136, 0.877)',
       lightgrey:'rgb(255 255 255 / 10%)',
+      overlay:'#000000a3',
     },
-    extend: {},
+    extend: {}
   },
   plugins: [],
 }
