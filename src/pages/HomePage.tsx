@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="w-full h-[90vh] bg-black">
         <div className="flex items-center flex-col justify-center w-full h-full">
           <div className="image">
-            <div className="position-absolute bg-overlay w-full h-full flex items-center justify-center flex-col">
+            <div className="position-absolute bg-overlay w-full h-screen flex items-center justify-center flex-col">
               <div className="flex">
                 <h1 className="text-white text-[2em] type-style">RELIABLE</h1>
                 <TypeAnimation
