@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
+import BookAppoinment from '../components/book-appoinment/BookAppoinment';
 
 const HomePage = () => {
   return (
     <section>
-      <div className="w-full h-[90vh] bg-black">
+      <div className="w-full h-[100vh] bg-black">
         <div className="flex items-center flex-col justify-center w-full h-full">
           <div className="image">
             <div className="position-absolute bg-overlay w-full h-screen flex items-center justify-center flex-col">
@@ -36,6 +37,7 @@ const HomePage = () => {
         </div>
         {/* <img src={img1} alt="homeBannerimg" className="w-full h-screen"/> */}
       </div>
+      <BookAppoinment />
     </section>
   )
 }
