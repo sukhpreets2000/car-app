@@ -101,7 +101,7 @@ const AboutPage = () => {
       </section>
       <section className="w-full bg-darkblue py-[70px] my-14">
         <div className="container mx-auto p-3">
-          <div className="grid grid-cols-4">
+          <div className="grid sm:grid-cols-1 md:grid-cols-4 sm: gap-5">
             {achievments.map((elem: AchievementType) => (
               <Achievement key={elem.id} total={elem.total} name={elem.name} />
             ))}
