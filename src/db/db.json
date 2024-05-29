@@ -46,5 +46,27 @@
       "id": 5,
       "name": "Wheel Alignment"
     }
+  ],
+  "achievments": [
+    {
+      "id": 1,
+      "total": 600,
+      "name": "Happy Clients"
+    },
+    {
+      "id": 2,
+      "total": 1000,
+      "name": "Succesful Repairs"
+    },
+    {
+      "id": 3,
+      "total": 80,
+      "name": "Proffesional Staff"
+    },
+    {
+      "id": 3,
+      "total": 1200,
+      "name": "Tools For Repairing"
+    }
   ]
 }
