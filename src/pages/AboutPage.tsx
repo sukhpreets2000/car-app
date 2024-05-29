@@ -1,5 +1,8 @@
 import { FaCheck } from "react-icons/fa6";
 import aboutImg from "../assets/about-img.jpg";
+import Achievement from "../components/achievement/Achievement";
+import { achievments } from "../db/db.json";
+import { AchievementType } from "../types/AchievementType";
 
 const AboutPage = () => {
   return (
@@ -96,25 +99,12 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      <section className="w-full bg-darkblue py-[50px] my-12">
+      <section className="w-full bg-darkblue py-[70px] my-14">
         <div className="container mx-auto p-3">
           <div className="grid grid-cols-4">
-            <div className="flex flex-col items-center">
-              <h2 className="text-[35px] text-yellow">600+</h2>
-              <p className="text-white">Happy clients</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <h2 className="text-[35px] text-yellow">600+</h2>
-              <p className="text-white">Happy clients</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <h2 className="text-[35px] text-yellow">600+</h2>
-              <p className="text-white">Happy clients</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <h2 className="text-[35px] text-yellow">600+</h2>
-              <p className="text-white">Happy clients</p>
-            </div>
+            {achievments.map((elem: AchievementType) => (
+              <Achievement key={elem.id} total={elem.total} name={elem.name} />
+            ))}
           </div>
         </div>
       </section>
