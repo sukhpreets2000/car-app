@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center">
-          <p className="text-grey text-[14px]">Copyright © 2024 <span className="text-red">Car Care</span> All Rights Reserved. | Website design by <span className="text-yellow">Dalbir and Sukhpreet</span></p>
+          <p className="text-grey text-[14px]">Copyright © 2024 <span className="text-yellow">Car Care</span> All Rights Reserved. | Website design by <span className="text-yellow">Dalbir and Sukhpreet</span></p>
         </div>
       </div>
     </footer>
